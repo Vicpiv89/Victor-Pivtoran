@@ -1,0 +1,334 @@
+body {
+	background-color: #FFC08A;
+}
+table {
+	color: black;
+	background-color: white;
+	max-width: 50%;
+	text-align: center;
+	margin: auto;
+	font-size: 130%;
+}
+td {
+	width: 50%;
+}
+th {
+	width: 50%;
+}
+.indexheader {
+	width: 100%;
+	text-align: center;
+	border-style: double;
+	font-family: "Courier New", monospace;
+	color: black;
+	padding: 3%;
+}
+.indexmain {
+	color: #8B9694;
+	width: 100%;
+	border-color: black;
+	background-image: linear-gradient(#FFC08A, #FFEBD9, #DAFFFD, #FFEBD9, #FFC08A);
+}
+.indexbox {
+	width: 20%;
+	height: ;
+	font-family: "Monaco", monospace;
+	border-style: outset;
+	border-color: black;
+	text-align: center;
+	background-color: #74A0D2;
+	border-width: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-left: 10%;
+	position: relative;
+	color: #001A41;
+	transition-property: all; /* Apply transition effect on the background color */
+  	transition-duration: 0.3s; /* Transition will last 1 second */
+  	transition-timing-function: linear; /* Timing function to specify a linear transition type */
+  	transition-delay: 0.1s; /* Transition starts after 1 second */
+}
+.indexbox:hover {
+	border-color: #99D7FF;
+	background-color: white;
+	font-size: 150%;
+	width: 22.5%;
+	opacity: 75%;
+}
+div a {
+	color: black;
+	font-size: 100%;
+}
+div.objective {
+	padding: 5%;
+	border-style: ;
+}
+img.boximage {
+	width: 100%;
+	height: 100%;
+	float: center;
+	margin: auto;
+	display: inline;
+}
+div.centered {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	background: rgba(255, 255, 255, 0.7);
+  	border-radius: 5px;
+}
+.indexbox a {
+	color: #8B9694;
+}
+.indexmain a {
+	color: #8B9694;
+}
+h1 {
+	font-size: 300%;
+	color: black;
+}
+.indexheader a {
+	text-decoration: none;
+}
+.objective {
+	text-align: center;
+	color: black;
+
+}
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+footer h5 {
+	padding: 2%;
+}
+.educationmain {
+	text-align: center;
+	background-image: linear-gradient(#FFC08A, #FFEBD9, #DAFFFD, #FFEBD9, #FFC08A);
+}
+.educationmain h4 {
+	padding: 1%;
+}
+.educationright {
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+	height: 300px;
+	margin-left: 2.1%;
+}
+.educationleft {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+	height: 300px;
+	margin-left: 2.1%;
+}
+.educationcenter {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+	height: 300px;
+	margin-left: 2.1%;
+}
+.educationmain img {
+	width: 100%;
+	height: 100%;
+	border-style: double;
+	border-width: 3px;
+	border-color: black;
+}
+.nonindexheader a {
+	width: 10%;
+	height: 5%;
+	color: white;
+	background-color: black;
+	padding: 0.7%;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: Verdana, "Sans-serif";
+	transition-property: all; /* Apply transition effect on the background color */
+  	transition-duration: 0.5s; /* Transition will last 1 second */
+  	transition-timing-function: linear; /* Timing function to specify a linear transition type */
+  	transition-delay: 0.1s; /* Transition starts after 1 second */
+}
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+a.active {
+	background-color: white;
+	color: black;
+}
+a {
+	text-decoration: none;
+}
+h5 a:hover {
+	color: orange;
+
+}
+.nonindexheader {
+	width: 100%;
+	text-align: center;
+	border-bottom-style: double;
+	font-family: "Courier New", monospace;
+	color: black;
+	padding: 3%;
+}
+.extraimageright {
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+	height: 300px;
+	margin-left: 3.15%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.extraimageleft {
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+	height: 300px;
+	margin-left: 3.15%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.skillsmain {
+	color: black;
+	text-align: center;
+}
+h2 {
+	padding: 1%;
+}
+.experiencemain {
+	width: 100%;
+	text-align: center;
+	color: black;
+	background-image: linear-gradient(#FFC08A, #FFEBD9, #DAFFFD, #FFEBD9, #FFC08A);
+}
+.experiencemain img {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 30%;
+	height: 300px;
+	transition-property: all; /* Apply transition effect on the background color */
+  	transition-duration: 0.1s; /* Transition will last 1 second */
+  	transition-timing-function: linear; /* Timing function to specify a linear transition type */
+  	transition-delay: 0s; /* Transition starts after 1 second */
+}
+.experiencemain img:hover {
+	width: 75%;
+	height: 700%;
+}
+.experiencemain a {
+	text-decoration: underline;
+	color: black;
+}
+.experiencemain a:hover {
+	text-decoration: underline;
+}
+.skillstable {
+	background-image: linear-gradient(#FFC08A, #FFEBD9, #DAFFFD, #FFEBD9, #FFC08A);
+}
+.skillsdescription {
+	font-size: 150%;
+	text-align: center;
+	width: 100%;
+	color: black;
+	font-style: italic;
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 300px) {
+	.indexbox {
+		width: 80%;
+		margin-top: 3%;
+	}
+	.indexbox:hover {
+		width: 80%;
+		height: ;
+		font-family: "Monaco", monospace;
+		border-style: outset;
+		border-color: black;
+		text-align: center;
+		background-color: #74A0D2;
+		border-width: 10px;
+		box-sizing: border-box;
+		display: inline-block;
+		margin-left: 10%;
+		position: relative;
+		color: #001A41;
+		margin-top: 3%;
+	}
+	.nonindexheader a {
+		display: block;
+		margin: auto;
+		width: 100%;
+		height: 100%;
+		margin-bottom: 3%;
+	}
+	.educationleft {
+		width: 100%;
+		margin-bottom: 20%;
+	}
+	.educationcenter {
+		width: 100%;
+		margin-bottom: 20%;
+	}
+	.educationright {
+		width: 100%;
+		margin-bottom: 20%;
+	}
+	.educationleft img {
+		width: 80%;
+		margin: auto;
+		height: 100%;
+		margin-bottom: 5%;
+	}
+	.educationright img {
+		width: 80%;
+		margin: auto;
+		height: 100%;
+		margin-bottom: 5%;	
+	}
+	.educationcenter img {
+		width: 80%;
+		margin: auto;
+		height: 100%;
+		margin-bottom: 5%;
+	}
+	.extraimageleft {
+		width: 100%;
+		margin-bottom: 20%;
+	}
+	.extraimageright {
+		width: 100%;
+		margin-bottom: 20%;
+	}
+	.extraimageleft  img {
+		width: 80%;
+		margin: auto;
+		height: 100%;
+		margin-bottom: 5%;
+	}
+	.extraimageright img {
+		width: 80%;
+		margin: auto;
+		height: 100%;
+		margin-bottom: 5%;
+	}
+	.experiencemain img {
+	width: 75%;
+	height: 700%;
+}
+}

@@ -1,74 +1,57 @@
 body {
-	background-color: #FFC08A;
+	background: black;
+	border-color: #00DFD3;
+	border-style: double;
 }
-table {
-	color: black;
+h1 {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.skillstable {
 	background-color: white;
-	max-width: 50%;
 	text-align: center;
-	margin: auto;
-	font-size: 130%;
-}
-td {
-	width: 50%;
-}
-th {
-	width: 50%;
+	font-size: 140%;
 }
 .indexheader {
 	width: 100%;
 	text-align: center;
-	border-style: double;
+	border-bottom-style: double;
+	border-color: #00DFD3;
+	border-width: 2%;
 	font-family: "Courier New", monospace;
-	color: black;
+	color: #00DFD3;
 	padding: 3%;
 }
 .indexmain {
 	color: #8B9694;
 	width: 100%;
-	border-color: black;
-	background-image: linear-gradient(#FFC08A, #FFEBD9, #DAFFFD, #FFEBD9, #FFC08A);
 }
-.indexbox {
-	width: 20%;
-	height: ;
+.indexboxobject {
 	font-family: "Monaco", monospace;
 	border-style: outset;
-	border-color: black;
+	border-color: #FF2929;
 	text-align: center;
-	background-color: #74A0D2;
-	border-width: 10px;
-	box-sizing: border-box;
-	display: inline-block;
-	margin-left: 10%;
-	position: relative;
-	color: #001A41;
+	color: black;
+	margin: auto;
 	transition-property: all; /* Apply transition effect on the background color */
   	transition-duration: 0.3s; /* Transition will last 1 second */
   	transition-timing-function: linear; /* Timing function to specify a linear transition type */
   	transition-delay: 0.1s; /* Transition starts after 1 second */
+  	padding: 0;
+  	background-color: white;
 }
-.indexbox:hover {
+.indexbox {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.indexboxobject:hover {
 	border-color: #99D7FF;
 	background-color: white;
 	font-size: 150%;
-	width: 22.5%;
 	opacity: 75%;
 }
-div a {
-	color: black;
-	font-size: 100%;
-}
-div.objective {
-	padding: 5%;
-	border-style: ;
-}
-img.boximage {
+.indexboxobject img {
 	width: 100%;
-	height: 100%;
-	float: center;
-	margin: auto;
-	display: inline;
 }
 div.centered {
 	position: absolute;
@@ -79,27 +62,26 @@ div.centered {
   	border-radius: 5px;
 }
 .indexbox a {
-	color: #8B9694;
-}
-.indexmain a {
-	color: #8B9694;
-}
-h1 {
-	font-size: 300%;
 	color: black;
+}
+.boximage {
+	height: 120%;
+}
+.interests {
+	color: white;
+	text-align: center;
+	font-size: 160%;
+	padding-top: 2%;
+	font-family: serif, Georgia;
 }
 .indexheader a {
 	text-decoration: none;
-}
-.objective {
-	text-align: center;
-	color: black;
-
+	color: #00DFD3;
 }
 footer {
 	text-align: center;
-	background-color: black;
-	color: white;
+	background-color: #00DFD3;
+	color: black;
     position: fixed;
     height: 100px;
     bottom: 0;
@@ -108,51 +90,36 @@ footer {
 footer h5 {
 	padding: 2%;
 }
-.educationmain {
-	text-align: center;
-	background-image: linear-gradient(#FFC08A, #FFEBD9, #DAFFFD, #FFEBD9, #FFC08A);
-}
-.educationmain h4 {
-	padding: 1%;
-}
-.educationright {
-	width: 30%;
-	text-align: center;
-	margin: auto;
-	display: inline-block;
-	height: 300px;
-	margin-left: 2.1%;
-}
-.educationleft {
-	float: left;
-	width: 30%;
-	text-align: center;
-	margin: auto;
-	display: inline-block;
-	height: 300px;
-	margin-left: 2.1%;
-}
-.educationcenter {
-	float: left;
-	width: 30%;
-	text-align: center;
-	margin: auto;
-	display: inline-block;
-	height: 300px;
-	margin-left: 2.1%;
-}
-.educationmain img {
+.educationsection img {
 	width: 100%;
-	height: 100%;
+	height: 70%;
 	border-style: double;
 	border-width: 3px;
 	border-color: black;
 }
-.nonindexheader a {
+.educationsection {
+	text-align: center;
+	padding-bottom: 3%;
+}
+.educationsection a {
+	color: white;
+	text-decoration: none;
+}
+.educationsection a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+.educationsection h4 {
+	padding: 1%;
+}
+.educationh4 {
+	color: white;
+}
+.nonindexnav a {
 	width: 10%;
 	height: 5%;
-	color: white;
-	background-color: black;
+	color: black;
+	background-color: white;
 	padding: 0.7%;
 	border-radius: 5px;
 	text-decoration: none;
@@ -164,26 +131,30 @@ footer h5 {
 }
 a:hover {
 	text-decoration: underline;
-	color: black;
 }
 a.active {
-	background-color: white;
-	color: black;
-}
-a {
-	text-decoration: none;
+	background-color: #00DFD3;
+	color: white;
 }
 h5 a:hover {
 	color: orange;
 
 }
-.nonindexheader {
+.nonindexnav {
 	width: 100%;
 	text-align: center;
 	border-bottom-style: double;
 	font-family: "Courier New", monospace;
 	color: black;
-	padding: 3%;
+	background-color: black;
+}
+.nonindexheader {
+	width: 100%;
+	text-align: center;
+	font-family: "Courier New", monospace;
+	color: #00DFD3;
+	padding-top: 2%;
+	background-color: black;
 }
 .extraimageright {
 	width: 30%;
@@ -206,129 +177,68 @@ h5 a:hover {
 .skillsmain {
 	color: black;
 	text-align: center;
+	padding-top: 3%;
 }
 h2 {
 	padding: 1%;
 }
 .experiencemain {
-	width: 100%;
-	text-align: center;
-	color: black;
-	background-image: linear-gradient(#FFC08A, #FFEBD9, #DAFFFD, #FFEBD9, #FFC08A);
-}
-.experiencemain img {
-	margin-top: 1%;
-	margin-bottom: 1%;
-	width: 30%;
-	height: 300px;
-	transition-property: all; /* Apply transition effect on the background color */
-  	transition-duration: 0.1s; /* Transition will last 1 second */
-  	transition-timing-function: linear; /* Timing function to specify a linear transition type */
-  	transition-delay: 0s; /* Transition starts after 1 second */
-}
-.experiencemain img:hover {
-	width: 75%;
-	height: 700%;
-}
-.experiencemain a {
-	text-decoration: underline;
-	color: black;
+	background-color: black;
+	padding-top: 2%;
 }
 .experiencemain a:hover {
 	text-decoration: underline;
 }
 .skillstable {
-	background-image: linear-gradient(#FFC08A, #FFEBD9, #DAFFFD, #FFEBD9, #FFC08A);
+	margin: auto;
 }
 .skillsdescription {
+	padding-top: 3.5%;
 	font-size: 150%;
 	text-align: center;
 	width: 100%;
-	color: black;
+	color: #00DFD3;
 	font-style: italic;
 }
-
-
-@media screen and (max-width: 800px) and (min-width: 300px) {
-	.indexbox {
-		width: 80%;
-		margin-top: 3%;
-	}
-	.indexbox:hover {
-		width: 80%;
-		height: ;
-		font-family: "Monaco", monospace;
-		border-style: outset;
-		border-color: black;
-		text-align: center;
-		background-color: #74A0D2;
-		border-width: 10px;
-		box-sizing: border-box;
-		display: inline-block;
-		margin-left: 10%;
-		position: relative;
-		color: #001A41;
-		margin-top: 3%;
-	}
-	.nonindexheader a {
-		display: block;
-		margin: auto;
-		width: 100%;
-		height: 100%;
-		margin-bottom: 3%;
-	}
-	.educationleft {
-		width: 100%;
-		margin-bottom: 20%;
-	}
-	.educationcenter {
-		width: 100%;
-		margin-bottom: 20%;
-	}
-	.educationright {
-		width: 100%;
-		margin-bottom: 20%;
-	}
-	.educationleft img {
-		width: 80%;
-		margin: auto;
-		height: 100%;
-		margin-bottom: 5%;
-	}
-	.educationright img {
-		width: 80%;
-		margin: auto;
-		height: 100%;
-		margin-bottom: 5%;	
-	}
-	.educationcenter img {
-		width: 80%;
-		margin: auto;
-		height: 100%;
-		margin-bottom: 5%;
-	}
-	.extraimageleft {
-		width: 100%;
-		margin-bottom: 20%;
-	}
-	.extraimageright {
-		width: 100%;
-		margin-bottom: 20%;
-	}
-	.extraimageleft  img {
-		width: 80%;
-		margin: auto;
-		height: 100%;
-		margin-bottom: 5%;
-	}
-	.extraimageright img {
-		width: 80%;
-		margin: auto;
-		height: 100%;
-		margin-bottom: 5%;
-	}
-	.experiencemain img {
-	width: 75%;
-	height: 700%;
+.carousel {
+    background: #00DFD3;
+    border-color: #00DFD3;
+    border-width: 2%;
+    border-style: solid;
+    text-decoration: none;
 }
+
+.carousel-item {
+  height: 300px;
 }
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+    margin: auto;
+    width: 50%;
+}
+.soccerball img {
+	width: 100%;
+	margin-bottom: 5%;
+}
+.experiencecarousel {
+	margin: auto;
+}
+.whitecolor {
+	color: white;
+}
+.experiencemain a {
+	color: white;
+}
+.experiencetextwhite {
+	color: white;
+	text-align: center;
+	padding-top: 3%;
+}
+.experiencetextwhite a {
+	color: white;
+}
+@media screen and (max-width: 800px) and (min-width: 300px)

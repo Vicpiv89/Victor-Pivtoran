@@ -1,11 +1,20 @@
 body {
 	background: black;
-	border-color: #00DFD3;
-	border-style: double;
+	
 }
 h1 {
 	padding-top: 1%;
 	padding-bottom: 1%;
+}
+.educationcard {
+	margin: auto;
+	font-size: 100%;
+	padding-bottom: 1%;
+}
+.educationcard img {
+	width: 100%;
+	height: 30vh;
+	padding-top: 3%;
 }
 .skillstable {
 	background-color: white;
@@ -29,8 +38,8 @@ h1 {
 .indexboxobject {
 	font-family: "Monaco", monospace;
 	border-style: outset;
-	border-color: #FF2929;
 	text-align: center;
+	border-color: orange;
 	color: black;
 	margin: auto;
 	transition-property: all; /* Apply transition effect on the background color */
@@ -39,6 +48,7 @@ h1 {
   	transition-delay: 0.1s; /* Transition starts after 1 second */
   	padding: 0;
   	background-color: white;
+  	border-radius: 5px;
 }
 .indexbox {
 	padding-top: 2%;
@@ -90,13 +100,6 @@ footer {
 footer h5 {
 	padding: 2%;
 }
-.educationsection img {
-	width: 100%;
-	height: 70%;
-	border-style: double;
-	border-width: 3px;
-	border-color: black;
-}
 .educationsection {
 	text-align: center;
 	padding-bottom: 3%;
@@ -106,7 +109,7 @@ footer h5 {
 	text-decoration: none;
 }
 .educationsection a:hover {
-	color: orange;
+	color: aqua;
 	text-decoration: underline;
 }
 .educationsection h4 {
@@ -193,12 +196,15 @@ h2 {
 	margin: auto;
 }
 .skillsdescription {
-	padding-top: 3.5%;
 	font-size: 150%;
 	text-align: center;
 	width: 100%;
 	color: #00DFD3;
 	font-style: italic;
+	margin: auto;
+	border-radius: 10px;
+	margin-bottom: 3%;
+	padding-top: 1%;
 }
 .carousel {
     background: #00DFD3;
@@ -240,5 +246,77 @@ h2 {
 }
 .experiencetextwhite a {
 	color: white;
+}
+.cardsection {
+	margin: auto;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+.l-bg-cherry {
+    background: linear-gradient(to right, #493240, #f09) !important;
+    color: #fff;
+}
+
+.l-bg-blue-dark {
+    background: linear-gradient(to right, darkblue, blue) !important;
+    color: #fff;
+}
+
+.l-bg-red-dark {
+    background: linear-gradient(to right, maroon, red) !important;
+    color: #fff;
+}
+
+.l-bg-orange-dark {
+    background: linear-gradient(to right, #a86008, #ffba56) !important;
+    color: #fff;
+}
+.l-bg-white-dark {
+	background: linear-gradient(to right, green, lime) !important;
+	color: #fff;
+}
+.l-bg-yellow-dark {
+	background: linear-gradient(to right, #8B8000, yellow) !important;
+	color: #fff;
+}
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+    font-size: 110px;
+}
+.card .card-statistic-3 .card-icon {
+    text-align: center;
+    line-height: 50px;
+    margin-left: 15px;
+    color: #000;
+    position: absolute;
+    right: -5px;
+    top: 20px;
+    opacity: 0.1;
+}
+
+.l-bg-yellow {
+    background: linear-gradient(135deg, gold, yellow) !important;
+    color: #fff;
+}
+
+.l-bg-green {
+    background: linear-gradient(135deg, green, lime) !important;
+    color: #fff;
+}
+
+.l-bg-orange {
+    background: linear-gradient(to right, #f9900e, #ffba56) !important;
+    color: #fff;
+}
+
+.l-bg-red {
+    background: linear-gradient(135deg, indianred, lightcoral) !important;
+    color: #fff;
 }
 @media screen and (max-width: 800px) and (min-width: 300px)

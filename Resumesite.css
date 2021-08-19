@@ -6,6 +6,21 @@ h1 {
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
+header {
+	margin-top: 3%;
+}
+.seefullpage {
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-nav {
+	text-align: center;
+	margin: auto;
+}
+.nonindexheader {
+	margin-top: 4%;
+}
 .educationh4 {
 	text-align: center;
 }
@@ -96,12 +111,12 @@ footer {
 	background-color: #00DFD3;
 	color: black;
     position: fixed;
-    height: 100px;
+    height: 50px;
     bottom: 0;
     width: 100%;
 }
 footer h5 {
-	padding: 2%;
+	padding: 1%;
 }
 .educationsection {
 	text-align: center;
@@ -121,38 +136,12 @@ footer h5 {
 .educationh4 {
 	color: white;
 }
-.nonindexnav a {
-	width: 10%;
-	display: inline;
-	color: black;
-	background-color: white;
-	padding: 1%;
-	border-radius: 2px;
-	text-decoration: none;
-	font-family: Verdana, "Sans-serif";
-	transition-property: all; /* Apply transition effect on the background color */
-  	transition-duration: 0.5s; /* Transition will last 1 second */
-  	transition-timing-function: linear; /* Timing function to specify a linear transition type */
-  	transition-delay: 0.1s; /* Transition starts after 1 second */
-}
 a:hover {
 	text-decoration: underline;
-}
-a.active {
-	background-color: #00DFD3;
-	color: white;
 }
 h5 a:hover {
 	color: orange;
 
-}
-.nonindexnav {
-	width: 100%;
-	text-align: center;
-	border-bottom-style: double;
-	font-family: "Courier New", monospace;
-	color: black;
-	background-color: black;
 }
 .nonindexheader {
 	width: 100%;
@@ -280,7 +269,9 @@ h2 {
     top: 20px;
     opacity: 0.1;
 }
-
+.navbar-dark {
+     background-color: #512DA8;
+}
 .l-bg-yellow {
     background: linear-gradient(135deg, gold, yellow) !important;
     color: #fff;
@@ -300,10 +291,26 @@ h2 {
     background: linear-gradient(135deg, indianred, lightcoral) !important;
     color: #fff;
 }
+.l-bg-cyan {
+	background: linear-gradient(135deg, #00DFD3, cyan) !important;
+}
+.carouseltitle {
+	margin-top: 1%;
+}
 @media screen and (max-width: 800px) and (min-width: 100px) {
-	.nonindexnav a {
-		width: 80%;
-		display: inline-block;
-		margin-top: 1%;
+	.carousel-inner {
+		font-size: 10px;
+	}
+	.carouseltitle {
+		font-size: 20px;
+	}
+	.seefullpage {
+		font-size: 10px;
+	}
+	header {
+	margin-top: 7%; 
+	}
+	.nonindexheader {
+		margin-top: 9%;
 	}
 }

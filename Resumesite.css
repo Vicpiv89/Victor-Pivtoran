@@ -123,11 +123,11 @@ footer h5 {
 }
 .nonindexnav a {
 	width: 10%;
-	height: 5%;
+	display: inline;
 	color: black;
 	background-color: white;
-	padding: 0.7%;
-	border-radius: 5px;
+	padding: 1%;
+	border-radius: 2px;
 	text-decoration: none;
 	font-family: Verdana, "Sans-serif";
 	transition-property: all; /* Apply transition effect on the background color */
@@ -192,7 +192,7 @@ h2 {
 	background-color: black;
 	padding-top: 2%;
 }
-.experiencemain a:hover {
+.experiencemain h5 a:hover {
 	text-decoration: underline;
 }
 .skillstable {
@@ -209,37 +209,15 @@ h2 {
 	margin-bottom: 3%;
 	padding-top: 1%;
 }
-.carousel {
-    background: #00DFD3;
-    border-color: #00DFD3;
-    border-width: 2%;
-    border-style: solid;
-    text-decoration: none;
-}
 
-.carousel-item {
-  height: 300px;
-}
-
-.carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 400px;
-    margin: auto;
-    width: 50%;
-}
-.soccerball img {
-	width: 100%;
-	margin-bottom: 5%;
-}
-.experiencecarousel {
-	margin: auto;
-}
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
 .whitecolor {
 	color: white;
 }
 .experiencemain a {
+	color: white;
+}
+.experiencemain {
 	color: white;
 }
 .experiencetextwhite {
@@ -322,4 +300,10 @@ h2 {
     background: linear-gradient(135deg, indianred, lightcoral) !important;
     color: #fff;
 }
-@media screen and (max-width: 800px) and (min-width: 300px)
+@media screen and (max-width: 800px) and (min-width: 100px) {
+	.nonindexnav a {
+		width: 80%;
+		display: inline-block;
+		margin-top: 1%;
+	}
+}

@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Victor Pivtoran</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
 	<link rel="stylesheet" href="Resumesite.css">
+	<script src="Resumesite.js"></script>
 </head>
 <body>
 	<div class="nonindexheader">
@@ -22,60 +24,138 @@
 	</nav>
 	
 	<div class="experiencemain col-12">
-		<div class="row row-content experiencecarousel col-md-9 col-12">
-                <div class="col">
-                    <div id="mycarousel" class="carousel-slide carousel" data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active soccerball">
-                            	<img class="d-block img-fluid" src="soccer ball.png" alt="soccer ball">
-                                <div class="carousel-caption d-none d-md-block">
-                                	<a href="https://vicpiv89.github.io/Euro2020/teams.html">
-                                    	<h2 class="mt-0">2021 - “Euro 2020” Info Portfolio (Course Capstone)</h2>
-                                	</a>
-                                	<p class="d-none d-sm-block whitecolor">This was a project in which I had built a 3 page website about the Euro 2020 Tournament. The project consists of information about the process and history of the competition, as well as the teams that participate, and their records. Full page viewable in the link above.
-                                    <ol class="carousel-indicators">
-                                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#mycarousel" data-slide-to="1"></li>
-                                    <li data-target="#mycarousel" data-slide-to="2"></li>
-                                    </ol>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="Boxshooter1.png" alt="box shooter 1">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h2 class="mt-0">2020 - 3D Shooter Game Project </h2>
-                                    <p class="d-none d-sm-block whitecolor">This project is built on Unity. It is a first-person shooter game, with a point system, targets, bullets, a crosshair, and a base, as well as starting, restarting, and ending levels.</p>
-                                    <ol class="carousel-indicators">
-                                    <li data-target="#mycarousel" data-slide-to="0"></li>
-                                    <li data-target="#mycarousel" data-slide-to="1" class="active"></li>
-                                    <li data-target="#mycarousel" data-slide-to="2"></li>
-                                    </ol>
-                                </div>
-                                
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="Boxshooter2.png" alt="box shooter 2">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h2 class="mt-0">2020 - 3D Shooter Game Project (Unity)  </h2>
-                                    <p class="d-none d-sm-block">This project is built on Unity. It is a first-person shooter game, with a point system, targets, bullets, a crosshair, and a base, as well as starting, restarting, and ending levels.</p>    
-                                    </div>
-                                    <ol class="carousel-indicators">
-                                    <li data-target="#mycarousel" data-slide-to="0"></li>
-                                    <li data-target="#mycarousel" data-slide-to="1"></li>
-                                    <li data-target="#mycarousel" data-slide-to="2" class="active"></li>
-                                    </ol>
-                            </div>
-                                <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </a>
-                        </div>
-                    </div>
-                </div>
+		<div class="container">
+        <div class="title">
+        </div>
+        
+        <div class="section" id="carousel">
+        <div class="container">
+        	<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view" style="background-image: url('Euro2020screenshot.png'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>2021 - “Euro 2020” Info Portfolio</strong>
+              </h1>
+              <a target="_blank" href="https://vicpiv89.github.io/Euro2020/" class="btn btn-outline-white btn-lg">
+              <p class="text-dark">See full page
+                <i class="fas fa-mouse-pointer ml-2 text-dark"></i>
+            	</p>
+              </a>
+              <p>
+              	<br>
+                <strong>This was a project in which I had built a 3 page website about the Euro 2020 Tournament. The project consists of information about the process and history of the competition, as well as the teams that participate, and their records. Full page viewable in the link above.</strong>
+              </p>
+              <p>
+              	<br>
+              	<br>
+              </p>
             </div>
-		<h5 class="experiencetextwhite">
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('Boxshooter1.png'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>2020 - 3D Shooter Game Project (1)</strong>
+              </h1>
+              <p>
+                <strong>This project is built on Unity. It is a first-person shooter game, with a point system, targets, bullets, a crosshair, and a base, as well as starting, restarting, and ending levels. There is no link to this game, but it is visible in the background image.</strong>
+              </p>
+              <p>
+              	<br>
+              	<br>
+              </p>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Second slide-->
+
+      <!--Third slide-->
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('Boxshooter2.png'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>2020 - 3D Shooter Game Project (2)</strong>
+              </h1>
+              <p>
+                <strong>This project is built on Unity. It is a first-person shooter game, with a point system, targets, bullets, a crosshair, and a base, as well as starting, restarting, and ending levels. There is no link to this game, but it is visible in the background image.</strong>
+              </p>
+              <p>
+              	<br>
+              	<br>
+              </p>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Third slide-->
+
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+
+  </div>
+  <!--/.Carousel Wrapper-->
+</div>
+</div>
+</div>
+  		<h5 class="experiencetextwhite">
 			<a href="https://www.canadalearningcode.ca">
 				April 2021 - Mentor at Girls Learning Code Spring Camp </a> <span class="badge badge-light"> Linked</span> <br> <br>
 				<a href="https://www.canadalearningcode.ca">

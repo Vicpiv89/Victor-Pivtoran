@@ -297,7 +297,7 @@ h2 {
 .carouseltitle {
 	margin-top: 1%;
 }
-@media screen and (max-width: 800px) and (min-width: 200px) {
+@media screen and (max-width: 600px) and (min-width: 200px) {
 	.carousel-inner {
 		font-size: 10px;
 	}
@@ -308,9 +308,9 @@ h2 {
 		font-size: 10px;
 	}
 	header {
-	margin-top: 9%; 
+	margin-top: 11%; 
 	}
 	.nonindexheader {
-		margin-top: 11%;
+		margin-top: 13%;
 	}
 }

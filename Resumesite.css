@@ -1,6 +1,9 @@
 body {
-	background: black;
-	
+	background-image: url("Backgroundforresume.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: contain 100%;
+	background-position: center;
 }
 h1 {
 	padding-top: 1%;
@@ -149,7 +152,6 @@ h5 a:hover {
 	font-family: "Courier New", monospace;
 	color: #00DFD3;
 	padding-top: 2%;
-	background-color: black;
 }
 .extraimageright {
 	width: 30%;
@@ -178,7 +180,6 @@ h2 {
 	padding: 1%;
 }
 .experiencemain {
-	background-color: black;
 	padding-top: 2%;
 }
 .experiencemain h5 a:hover {

@@ -6,7 +6,7 @@ body {
 	background-position: center;
 }
 strong {
-	background-color: rgba(0, 0, 0, 0.68);
+	background-color: white;
 }
 h1 {
 	padding-top: 1%;
@@ -19,8 +19,8 @@ header {
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
-	background-color: rgba(0, 0, 0, 0.68);
-	color: white;
+	background-color: white;
+	color: black;
 }
 .navbar-nav {
 	text-align: center;
@@ -207,7 +207,7 @@ h2 {
 
 .carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
 .whitecolor {
-	color: white;
+	color: black;
 }
 .carousel img {
 	width: 80%;
